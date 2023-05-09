@@ -12,12 +12,21 @@
   --bg-color: #222327;
   --text-color: #fff;
   --main-color: #29fd53;
+  --two-main-color: #ffffffcc;
+  --big-font: 4rem;
+  --h2-font: 1.9rem;
+  --p-font: 1rem;
 }
 
 body{
   min-height: 100vh;
   background: var(--bg-color);
   color: var(--text-color);
+}
+
+span{
+  color: var(--main-color);
+  font-size: 6rem;
 }
 
 /* SECTION NAVBAR */
@@ -31,7 +40,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: transparent;
+  background: var(--bg-color);
   padding: 28px 12%;
   transition: all .50s ease;
 }
@@ -98,6 +107,90 @@ header{
   display: none;
 }
 
+/* SECTION HOME */
+
+section{
+  padding: 120px 14%;
+}
+.home{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 6rem;
+  align-items: center;
+}
+.home img{
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  border-radius: 50%;
+}
+.home-text h5{
+  font-size: var(--text-color);
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+.home-text h1{
+  font-size: var(--big-font);
+  color: var(--text-color);
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 20px;
+}
+.home-text h6{
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.home-text p{
+  max-width: 470px;
+  font-size: var(--p-font);
+  font-weight: 300;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--two-main-color);
+}
+
+.btn{
+  background: var(--main-color);
+  color: var(--text-color);
+  box-shadow: 4px 4px var(--text-color);
+  margin-left: 25px;
+  padding: 0 25px;
+  line-height: 42px;
+  display: inline-block;
+  border-radius: 10px;
+  transition: transform 0.35s ease;
+}
+.btn:hover{
+  transform: scale(1.2);
+  background: var(--text-color);
+  color: var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+}
+
+.home-link{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 12%;
+}
+
+.home-link a{
+  font-size: 34px;
+  color: var(--text-color);
+}
+
+.home-link a:hover{
+  color: var(--main-color);
+  transition: all .50s ease;
+  transform: scale(1.2);
+}
+
 /* Ajuste para dispositivos moviles */
 
 @media (max-width: 1280px){
@@ -141,5 +234,10 @@ header{
   }
   .navbar.open{
     right: 2%;
+  }
+
+  .home{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
   }
 }
