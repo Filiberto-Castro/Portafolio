@@ -11,7 +11,7 @@
 :root{
   --bg-color: #222327;
   --text-color: #fff;
-  --main-color: #29fd53;
+  --main-color: #f58220;
   --two-main-color: #ffffffcc;
   --big-font: 4rem;
   --h2-font: 2rem;
@@ -316,7 +316,9 @@ section{
 }
 .portfolio-item img {
   width: 100%;
+  height: 260px;
   object-fit: cover;
+  border-radius: 10px;
 }
 .portfolio-item h3 {
   font-size: 24px;
@@ -421,7 +423,7 @@ section{
   .navbar a.active{
     color: var(--text-color);
   }
-  .navbar.open{
+  .navbar.active{
     right: 2%;
   }
   .row{
@@ -469,7 +471,7 @@ section{
   .navbar a:hover{
     background: var(--main-color);
   }
-  .navbar.open{
+  .navbar.active{
     top: 100%;
   }
 }

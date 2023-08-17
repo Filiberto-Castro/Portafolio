@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>Portafolio - CodeDev</title>
   <link rel="stylesheet" href="/style.css">
 
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
@@ -18,14 +18,14 @@
     <a href="#" class="logo"><i class="ri-code-s-slash-line"></i><span>CodeDev</span></a>
 
     <ul class="navbar">
-      <li><a href="#" class="active">Inicio</a></li>
-      <li><a href="#">Sobre mí</a></li>
-      <li><a href="#">Portafolio</a></li>
-      <li><a href="#">Contacto</a></li>
+      <li><a href="#home" class="active">Inicio</a></li>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portafolio</a></li>
     </ul>
     <div class="main">
-      <a href="#" class="btn"><i class="ri-download-fill"></i>Descargar CV</a>
-      <a href="https://github.com/Filiberto-Castro" class="btn-git"><i class="ri-github-fill"></i></a>
+      <a href="./src/Filiberto-Castro-Curriculum-Vitae.pdf" class="btn" download=""><i class="ri-download-fill"></i>Descargar CV</a>
+      <a href="https://github.com/Filiberto-Castro" class="btn-git" target="_blank"><i class="ri-github-fill"></i></a>
       <div class="bx bx-menu" id="menu-icon"></div>
     </div>
   </header>  
@@ -36,11 +36,11 @@
       <h5>Hola, Yo soy</h5>
       <h1>Filiberto Castro</h1>
       <h5>Un apasionado</h5>
-      <h6><span>Desarrollador Android</span></h6>
-      <a href="#" class="btn">Download CV</a>
+      <h6><span>Desarrollador Web</span></h6>
+      <a href="./src/Filiberto-Castro-Curriculum-Vitae.pdf" class="btn" download="">Download CV</a>
       <div class="home-link">
-        <a href="https://github.com/Filiberto-Castro" class="flex items-center"><i class="ri-github-fill"></i></a>
-        <a href="https://www.linkedin.com/in/filiberto-castro-198823272/" class="flex items-center"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="https://github.com/Filiberto-Castro" class="flex items-center" target="_blank"><i class="ri-github-fill"></i></a>
+        <a href="https://www.linkedin.com/in/filiberto-castro-198823272/" class="flex items-center" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
         <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
       </div>
     </div>
@@ -65,13 +65,13 @@
   
       <div class="row">
         <div class="about-text">
-          <h2>Soy un Desarrollador Android apasionado y comprometido con el aprendizaje continua.</h2>
+          <h2>Soy un Desarrollador Web apasionado y comprometido con el aprendizaje continua.</h2>
           <p>Actualmente me encuentro estudiando <span>Ingeniería en Sistemas de Información y Ciencias de la Computación en la UMG (Universidad de Mariano Galvez de Guatemala) - Plan Sábado</span></p>
-          <p>Me considero una persona autodidacta, he estado creando proyectos por mi cuenta y he completado varios cursos para mejorar mis habilidades de programación y desarrollo android en Android Studio (<span>Java y Kotlin</span>).</p>
-          <p>Busco oportunidades laborales para aplicar y desarrollar mis habilidades como programador y desarrollador de Android. Donde me permita <span>crecer profesionalmente</span> y contribuir al éxito de la empresa.</p>
+          <p>Me considero una persona autodidacta, he estado creando proyectos por mi cuenta y he completado varios cursos para mejorar mis habilidades de programación y desarrollo web (<span>HTML, CSS y JAVASCRIPT</span>).</p>
+          <p>Actualmente, aspiro a aplicar y ampliar mis habilidades como programador y desarrollador web en un entorno laboral dinámico. Estoy motivado para contribuir al éxito de una empresa mientras sigo creciendo profesionalmente.</p>
         </div>
         <div class="main-btn">
-          <a href="#" class="btn">Contácteme</a>
+          <a href="mailto:fcastrob210@gmail.com" class="btn">Contácteme</a>
         </div>
       </div>
     </div>
@@ -96,6 +96,9 @@
           </div>
           <div class="skills-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="M2 1v125h125V1H2zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48 58h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"/></svg>
+          </div>
+          <div class="skills-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="M9.032 2l10.005 112.093 44.896 12.401 45.02-12.387L118.968 2H9.032zm89.126 26.539l-.627 7.172L97.255 39H44.59l1.257 14h50.156l-.336 3.471-3.233 36.119-.238 2.27L64 102.609v.002l-.034.018-28.177-7.423L33.876 74h13.815l.979 10.919L63.957 89H64v-.546l15.355-3.875L80.959 67H33.261l-3.383-38.117L29.549 25h68.939l-.33 3.539z"/></svg>
           </div>
         </div>
       </div>
@@ -128,86 +131,58 @@
       <div class="portfolio-items">
 
         <div class="portfolio-item">
-          <a href="proyecto1.html">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="Proyecto 1">
-            <h3>Proyecto 1</h3>
+          <a href="https://codedev-portfolio.netlify.app/" target="_blank">
+            <img src="./img/portafolio-personal.png" alt="Vista previa portafolio">
+            <h3>Portafolio personal</h3>
           </a>
           <div class="portfolio-tools">
-            <a href="https://github.com/Filiberto-Castro" class="flex items-center"><i class="ri-github-fill"></i></a>
-            <a href="https://www.linkedin.com/in/filiberto-castro-198823272/" class="flex items-center"><i class="ri-linkedin-box-fill"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
+            <a href="https://github.com/Filiberto-Castro/Portafolio" class="flex items-center" target="_blank"><i class="ri-github-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML" class="flex items-center" target="_blank"><i class="ri-html5-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS" class="flex items-center" target="_blank"><i class="ri-css3-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/JAVASCRIPT" class="flex items-center" target="_blank"><i class="ri-javascript-fill"></i></a>
+            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-fill"></i></a>
           </div>
         </div>
 
         <div class="portfolio-item">
-          <a href="proyecto1.html">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="Proyecto 1">
-            <h3>Proyecto 1</h3>
+          <a href="https://estadistica-umg.netlify.app/" target="_blank">
+            <img src="./img/estadistica-web.png" alt="Vista previa estadistica">
+            <h3>Pagina Estadistica</h3>
           </a>
           <div class="portfolio-tools">
-            <a href="https://github.com/Filiberto-Castro" class="flex items-center"><i class="ri-github-fill"></i></a>
-            <a href="https://www.linkedin.com/in/filiberto-castro-198823272/" class="flex items-center"><i class="ri-linkedin-box-fill"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
+            <a href="https://github.com/Filiberto-Castro/Pagina_web-Estadistica" class="flex items-center" target="_blank"><i class="ri-github-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML" class="flex items-center" target="_blank"><i class="ri-html5-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS" class="flex items-center" target="_blank"><i class="ri-css3-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/JAVASCRIPT" class="flex items-center" target="_blank"><i class="ri-javascript-fill"></i></a>
+            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-fill"></i></a>
           </div>
         </div>
 
         <div class="portfolio-item">
-          <a href="proyecto1.html">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="Proyecto 1">
-            <h3>Proyecto 1</h3>
+          <a href="https://batalla-de-manos.netlify.app/" target="_blank">
+            <img src="./img/batalla-de-manos.png" alt="Vista previa estadistica">
+            <h3>Batalla de manos</h3>
           </a>
           <div class="portfolio-tools">
-            <a href="https://github.com/Filiberto-Castro" class="flex items-center"><i class="ri-github-fill"></i></a>
-            <a href="https://www.linkedin.com/in/filiberto-castro-198823272/" class="flex items-center"><i class="ri-linkedin-box-fill"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
+            <a href="https://github.com/Filiberto-Castro/Curso_Codezilla/tree/main/ProyectoFinal" class="flex items-center" target="_blank"><i class="ri-github-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML" class="flex items-center" target="_blank"><i class="ri-html5-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS" class="flex items-center" target="_blank"><i class="ri-css3-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/JAVASCRIPT" class="flex items-center" target="_blank"><i class="ri-javascript-fill"></i></a>
+            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-fill"></i></a>
           </div>
         </div>
 
         <div class="portfolio-item">
-          <a href="proyecto1.html">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="Proyecto 1">
-            <h3>Proyecto 1</h3>
+          <a href="https://calculadora-codedev.netlify.app/" target="_blank">
+            <img src="./img/calculadora-gameplay.png" alt="Vista previa estadistica">
+            <h3>Calculadora Game</h3>
           </a>
           <div class="portfolio-tools">
-            <a href="https://github.com/Filiberto-Castro" class="flex items-center"><i class="ri-github-fill"></i></a>
-            <a href="https://www.linkedin.com/in/filiberto-castro-198823272/" class="flex items-center"><i class="ri-linkedin-box-fill"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <a href="proyecto1.html">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="Proyecto 1">
-            <h3>Proyecto 1</h3>
-          </a>
-          <div class="portfolio-tools">
-            <a href="https://github.com/Filiberto-Castro" class="flex items-center"><i class="ri-github-fill"></i></a>
-            <a href="https://www.linkedin.com/in/filiberto-castro-198823272/" class="flex items-center"><i class="ri-linkedin-box-fill"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <a href="proyecto1.html">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="Proyecto 1">
-            <h3>Proyecto 1</h3>
-          </a>
-          <div class="portfolio-tools">
-            <a href="https://github.com/Filiberto-Castro" class="flex items-center"><i class="ri-github-fill"></i></a>
-            <a href="https://www.linkedin.com/in/filiberto-castro-198823272/" class="flex items-center"><i class="ri-linkedin-box-fill"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
-            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-line"></i></a>
+            <a href="https://github.com/Filiberto-Castro/Calculadora-Gameplay" class="flex items-center" target="_blank"><i class="ri-github-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML" class="flex items-center" target="_blank"><i class="ri-html5-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS" class="flex items-center" target="_blank"><i class="ri-css3-fill"></i></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/JAVASCRIPT" class="flex items-center" target="_blank"><i class="ri-javascript-fill"></i></a>
+            <a href="mailto:fcastrob210@gmail.com" class="flex items-center"><i class="ri-mail-fill"></i></a>
           </div>
         </div>
         
