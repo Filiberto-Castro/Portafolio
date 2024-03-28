@@ -542,7 +542,14 @@ section{
   }
 
   .portfolio-items {
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    display: flex; 
+    justify-content: flex-start;
+    width: 360px; 
+    overflow: auto;
+  }
+
+  .portfolio-item {
+    flex: 0 0 auto;
   }
 
   .skills-icon {
