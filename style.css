@@ -19,7 +19,6 @@
 }
 
 body{
-  display: grid;
   min-height: 100vh;
   background: var(--bg-color);
   color: var(--text-color);
