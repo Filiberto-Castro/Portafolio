@@ -544,7 +544,7 @@ section{
   .portfolio-items {
     display: flex; 
     justify-content: flex-start;
-    width: 400px; 
+    width: auto; 
     overflow: auto;
   }
 
